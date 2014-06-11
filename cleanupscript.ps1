@@ -1,6 +1,6 @@
 # Delete all files in a given path that are older than a specified number of days
-#
-# 
+# Change the number of days using the $limit variable
+# For safety this is configured just to echo the files that would be deleted
 
 $limit = 365
 $path = "\\someserver\someshare"
